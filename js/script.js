@@ -18,8 +18,8 @@ for (disabled = 0; disabled < disableds.length; disabled++) {
 var invites = document.querySelectorAll(".invite");
 for (invite = 0; invite < invites.length; invite++) {
     invites[invite].onclick = function (e) {
-        e.preventDefault();
         window.open("https://discord.com/oauth2/authorize?client_id=815184711416152094&scope=bot&permissions=8", "_blank");
+        e.preventDefault();
     }
 }
 
